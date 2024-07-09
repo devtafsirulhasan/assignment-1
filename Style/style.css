@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    width: 100%;
+    height: 640px;
+    background-image: url('../assets/banner.png');
+    background-position: center;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-content-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.header-content-container img {
+    width: 240.28px;
+    height: 240px;
+    margin: 0 auto
+}
+
+.header-title {
+    font-size: 44px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.header-description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 50%;
+    margin: 0 auto;
+    color: rgb(61, 63, 68);
+}
+
+.contact-btn {
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    width: 200px;
+    height: 60px;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 20px auto;
+    font-weight: 600;
+
+}
+
+/* web-development-details */
+.web-development-details {
+    max-width: 60%;
+    height: 1200px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 100px auto;
+}
+
+.web-development-details-container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.details-box-1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin: 40px auto;
+    padding:0 40px
+}
+
+.details-box-2{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    border-radius: 16px;
+    margin: 40px auto;
+    padding:0 40px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+.details-box-1-card-1{
+    width: 50%;
+    border: 1px solid red;
+}
+.card-title{
+    font-size:20px;
+    color:rgba(13, 19, 33, 0.7);
+    font-weight: 700;
+    margin-top:16px
+    
+}
+.card-description{
+    font-weight: 400;
+    color:rgb(13, 19, 33);
+    font-size: 12px;
+    margin: 10px 0;
+    line-height: 20px;
+}
+.Learn-more{
+    padding:10px 30px;
+    border:1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: transparent;
+    border-radius: 4px;
+}
