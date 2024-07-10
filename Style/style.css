@@ -3,13 +3,12 @@
 body {
     font-family: "Azeret Mono", monospace;
 }
-
+/* Start a simple header page  */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 .header-container {
     width: 100%;
     height: 640px;
@@ -19,7 +18,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .header-content-container {
     height: 100%;
     display: flex;
@@ -29,19 +27,16 @@ body {
     text-align: center;
 
 }
-
 .header-content-container img {
     width: 240.28px;
     height: 240px;
     margin: 0 auto
 }
-
 .header-title {
     font-size: 44px;
     font-weight: 800;
     margin: 20px 0;
 }
-
 .header-description {
     font-size: 16px;
     font-weight: 500;
@@ -50,19 +45,17 @@ body {
     margin: 0 auto;
     color: rgb(61, 63, 68);
 }
-
 .contact-btn {
     border-radius: 8px;
     background: rgb(13, 19, 33);
-    width: 200px;
-    height: 60px;
     color: #ffffff;
     font-size: 18px;
     margin: 20px auto;
     font-weight: 600;
-
+    text-decoration: none;
+    padding: 20px 20px;
 }
-
+/* Close header part  */
 /* web-development-details */
 .web-development-details {
     max-width: 60%;
@@ -70,27 +63,23 @@ body {
     margin: 100px auto;
     padding: 60px 0;
 }
-
 .details-title {
     font-size: 26px;
     font-weight: 600;
     margin: 20px 0;
     color: rgb(13, 19, 33);
 }
-
 .details-description {
     font-size: 16px;
     font-weight: 500;
     color: rgb(82, 86, 95);
     line-height: 26px
 }
-
 .web-development-details-container {
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
-
 .details-box-1 {
     width: 80%;
     display: flex;
@@ -103,7 +92,6 @@ body {
     height: 250px;
     margin-top: 50px;
 }
-
 .details-box-2 {
     width: 80%;
     display: flex;
@@ -117,18 +105,15 @@ body {
     background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     height: 250px;
 }
-
 .details-box-1-card-1 {
     width: 50%;
 }
-
 .card-title {
     font-size: 20px;
     color: rgba(13, 19, 33, 0.7);
     font-weight: 700;
     margin-top: 16px
 }
-
 .card-description {
     font-weight: 400;
     color: rgb(13, 19, 33);
@@ -144,29 +129,25 @@ body {
     background-color: transparent;
     border-radius: 4px;
 }
-
 .details-box-1-card-2 {
     width: 200px;
     height: 200px;
 }
-
 .details-box-1-card-2 img {
     width: 100%;
     height: 100%;
 }
-
-/*  */
+/* close web part */
+/*details card part*/
 .details-box-1-card-2-2 {
     width: 50%;
 }
-
 .card-title-2 {
     font-size: 20px;
     color: rgba(13, 19, 33, 0.7);
     font-weight: 700;
     margin-top: 16px
 }
-
 .card-description-2 {
     font-weight: 400;
     color: rgb(13, 19, 33);
@@ -174,17 +155,14 @@ body {
     margin: 10px 0;
     line-height: 20px;
 }
-
 .details-box-1-card-2-2-img {
     width: 200px;
     height: 200px;
 }
-
 .details-box-1-card-2-2-img img {
     width: 100%;
     height: 100%;
 }
-
 /* My Inspiration Section  */
 .Inspiration-container {
     max-width: 60%;
@@ -192,7 +170,6 @@ body {
     /* padding: 20px 0; */
 
 }
-
 .Inspiration-content {
     display: flex;
     flex-direction: column;
@@ -201,14 +178,12 @@ body {
     padding: 30px 0;
     text-align: center;
 }
-
 .Inspiration-title {
     font-size: 26px;
     font-weight: 700;
     color: black;
     margin-bottom: 20px
 }
-
 .Inspiration-video {
     width: 100%;
     margin: 0 auto;
@@ -217,11 +192,9 @@ body {
     border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.2);
 }
-
 .Inspiration-video-youtube {
     border-radius: 16px;
 }
-
 .Inspiration-paragraph {
     font-size: 14px;
     font-weight: 400;
@@ -235,20 +208,17 @@ body {
     width: 80%;
     margin: 0 auto;
 }
-
 .target-content {
     width: 60%;
     text-align: center;
     margin: 0 auto
 }
-
 .target-name {
     font-size: 22px;
     font-weight: 600;
     color: black;
 
 }
-
 .target-subject-container {
     display: flex;
     flex-direction: row;
@@ -257,7 +227,6 @@ body {
     height: 400px;
     gap: 60px
 }
-
 .subject-box {
     width: 360px;
     height: 300px;
@@ -273,7 +242,6 @@ body {
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
 }
-
 .subject-box-3 {
     width: 360px;
     height: 300px;
@@ -283,30 +251,22 @@ body {
     background: rgba(255, 223, 0, 0.05);
 
 }
-
 .subject-name {
     font-size: 24px;
     font-weight: 700;
     margin: 12px 0;
 }
-
 .subject-meaning {
     font-size: 14px;
     font-weight: 500;
     color: gray;
 }
-
 .Learn-more-subject {
     display: block;
     margin-top: 12px;
     color: black;
     font-weight: 800;
 }
-
-.subject-box img {
-    width: 10%;
-}
-
 .target-content p {
     font-size: 14px;
     font-weight: 400;
@@ -316,3 +276,89 @@ body {
     text-align: center;
     margin: 12px auto;
 }
+/*  */
+.need-support-container{
+    width: 60%;
+    height: 380px;
+    margin: 40px auto;
+    background-color: #363636;
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    border-radius: 16px;
+}
+.support-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color:#ffffff
+}
+.support-title{
+    font-size: 30px;
+    margin: 14px 0;
+    color: #ffffff;
+    text-align: center;
+}
+.support-description{
+    font-size: 16px;
+    color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.suport-input input{
+    border-radius: 8px;
+    border: none;
+    width: 500px;
+    height: 46px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+.suport-input button{
+    width: 120px;
+    height: 46px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+.suport-input{
+    margin: 30px 0;
+}
+/*  */
+.fotter-container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(235, 235, 235);
+    background-blend-mode: overlay;
+    margin-top:100px
+
+}
+.fotter-content{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.social-icon{
+   display: flex;
+   justify-content: space-between;
+   gap:20px
+}
+.social-icon li{
+    list-style-type: none;
+
+}
+.fotter-content h3{
+    font-size:18px;
+    padding:10px 0;
+}
+/* Complete Design Part  */
